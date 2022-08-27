@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" href="./style.css"> 
+</head>
+<body> 
+	<header class="header">
+		<div><label for="type">Выберите тему:</label> <br>
+			<select name="type" id="type">
+				<option value="light" id="lightTheme">Светлая</option>
+				<option value="dark" id="darkTheme" >Темная</option>
+				<option value="blue" id="blueTheme">Голубая</option>
+			</select>
+		</div>
+	</header>
+<form name="main" class="form">
+		<div class="register__form">
+			<h1 class="register__title">Register with</h1>
+			<div class="register__icons">
+				<a href=""><img class="icon" src="./assets/facebook.png" alt=""></a>
+				<a href=""><img class="icon" src="./assets/google.png" alt=""></a>
+				<a href=""><img class="icon" src="./assets/twitter.png" alt=""></a>
+			</div>
+			<legend class="register__subtitle" >Or with your E-mail</legend>
+				<div class="register__aria">
+					<div  class="form__username" >
+					<input  class="input-style " type="text" name="formUsername"  id="username" placeholder="Username" >
+					<div class="errorName"></div>
+						</div>
+					<div class="form__email">
+						<input class="input-style" type="email" name="formEmail" id="email" placeholder="E-mail" >
+						<div class="errorEmail"></div>
+					</div>
+					<div class="form__password">
+						<input class="input-style" type="password" name="formPassword"  id="password" placeholder="Password" >
+						<div class="errorPass"></div>
+					</div>
+					<div class="form__repeat">
+						<input class="input-style" type="password"  name="formRepeat"  id="repeat" placeholder="Repeat Password">
+						<div class="errorRep"></div>
+					</div>
+					<button type="button" class="register__btn styleBtn"> Create your account</button>
+				</div>
+				<div id="success"></div>
+				
+		</div>
+	
+	</form>
+
+	<script src="./index.js"></script>
+</body>
+</html>

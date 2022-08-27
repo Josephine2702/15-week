@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(184, 255, 112);
+}
+
+
+.form{
+display: flex;
+justify-content: center;
+}
+
+.register__title{
+    font-size: 24px;
+    align-self: center;
+    margin: 40px 0 20px 0;
+}
+
+.register__icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.register__form{
+    margin-top: 10%;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 50px;
+    background-color: rgba(211, 255, 167, 0.904);
+    border-radius: 30px;
+}
+
+.register__subtitle{
+    margin-top: 20px;
+    margin-left: 53px;
+}
+
+.register__aria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-style{
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border: solid 1px #888;
+}
+
+#Username{
+    margin-top: 20px;
+}
+
+
+
+.input-style:hover{
+    border: solid 1px greenyellow;
+}
+
+.input-style:active{
+    border-color: greenyellow;
+}
+
+.input-style:focus{
+    border-color: greenyellow;
+}
+
+
+.register__btn{
+    width: 200px;
+    height: 30px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: chartreuse;
+
+}
+
+.errorName, .errorEmail, .errorPass, .errorRep{
+    color: red;
+overflow: hidden;
+ 
+}
+
+.success {
+    color: greenyellow;
+}
